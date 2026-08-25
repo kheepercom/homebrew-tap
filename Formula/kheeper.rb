@@ -1,15 +1,15 @@
 class Kheeper < Formula
   desc "Smart OCI registry client for bootable container images"
   homepage "https://kheeper.com"
-  version "0.19.0"
+  version "0.20.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kheepercom/homebrew-tap/releases/download/v0.19.0/kheeper_v0.19.0_darwin_arm64.tar.gz"
-      sha256 "c31cc2e46f361a614d51d219b9cac0e7b0e94949397188e88c1fb95885aee828"
+      url "https://github.com/kheepercom/homebrew-tap/releases/download/v0.20.0/kheeper_v0.20.0_darwin_arm64.tar.gz"
+      sha256 "08537d95693c7d61301d5f52775ad2d9a58b5bed68b22998a48b0a3bd1ba461a"
     else
-      url "https://github.com/kheepercom/homebrew-tap/releases/download/v0.19.0/kheeper_v0.19.0_darwin_amd64.tar.gz"
-      sha256 "5a446ae5eebeee270dcf2c2953645efa00a4bd3764590e1112791c18333c19da"
+      url "https://github.com/kheepercom/homebrew-tap/releases/download/v0.20.0/kheeper_v0.20.0_darwin_amd64.tar.gz"
+      sha256 "f6c9848910af3694acb49eaa4bdb629881b09b73a3c4352cc7219d25bfd7e4df"
     end
   end
 
